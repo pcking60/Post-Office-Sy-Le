@@ -34,7 +34,7 @@ angular.module('postoffice',
                 templateUrl: "/app/components/home/homeView.html",
                 controller: "homeController"
             });
-        $urlRouterProvider.otherwise('/home');
+        $urlRouterProvider.otherwise('/admin');
     })
 
     //.config(function ($httpProvider) {
