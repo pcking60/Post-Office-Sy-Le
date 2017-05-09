@@ -13,7 +13,7 @@ namespace PostOffice.Domain
         public int Offset { get; set; }
         public IEnumerable<RequestFilter> Filters { get; set; }
         public string SortedField { get; set; }
-        public string IsDescSort { get; set; }
+        public bool IsDescSort { get; set; }
 
         public class RequestFilter
         {

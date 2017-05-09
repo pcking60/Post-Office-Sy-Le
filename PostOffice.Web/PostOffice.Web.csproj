@@ -5448,6 +5448,10 @@
       <Project>{3286766e-b6b3-4c44-9382-20d76751e55f}</Project>
       <Name>PostOffice.Domain</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PostOffice.Service\PostOffice.Service.csproj">
+      <Project>{2be5c2a2-83db-4f1e-a24b-fd6531d131b3}</Project>
+      <Name>PostOffice.Service</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Assets\admin\libs\ngBootbox\typings\angularjs\angular.d.ts" />
