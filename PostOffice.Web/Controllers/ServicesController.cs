@@ -10,10 +10,10 @@ using System.Web.Http;
 
 namespace PostOffice.Web.Controllers
 {
-    public class ServiceController : ApiController
+    public class ServicesController : ApiController
     {
         Domain.Services.IPostOfficeService _internalService;
-        public ServiceController()
+        public ServicesController()
         {
             _internalService = Service.ServiceFactory.CreatePostOfficeService();
         }
